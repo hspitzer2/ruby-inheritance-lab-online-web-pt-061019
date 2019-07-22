@@ -7,7 +7,7 @@ class Teacher < User
   end
 
   def last_name
-    @last_name = Teacher.new("Flombaum")
+    @last_name
 
   end
   # def teach
