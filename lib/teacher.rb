@@ -12,7 +12,7 @@ class Teacher < User
   end
 
   def teach
-    @@knowledge.random
+    KNOWLEDGE.random
   end
 
 end
