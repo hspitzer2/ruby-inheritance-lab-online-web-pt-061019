@@ -12,8 +12,8 @@ class Teacher < User
   end
 
   def teach
-    self.learn
-    puts learn
+    some_knowledge = KNOWLEDGE.sample
+    puts some_knowledge
   end
 
 end
