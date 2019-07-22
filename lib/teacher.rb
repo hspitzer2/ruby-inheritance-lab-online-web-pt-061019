@@ -2,8 +2,8 @@ class Teacher < User
 
   KNOWLEDGE = ["a String is a type of data in Ruby", "programming is hard, but it's worth it", "javascript async web request", "Ruby method call definition", "object oriented dog cat class instance", "class method class variable instance method instance variable", "programming computers hacking learning terminal", "bash Ruby rvm update certs"]
 
-  def first_name(first_name)
-    nu_teacher = Teacher.new(first_name)
+  def first_name(name)
+    nu_teacher = Teacher.new(name)
   end
 
   # def last_name
