@@ -8,5 +8,7 @@ class Teacher < User
 
   def last_name
   end
-
+  def teach
+  end
+    
 end
