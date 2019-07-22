@@ -1,7 +1,7 @@
 class Student < User
 
   attr_writer :first_name, :last_name
-  attr_accessor :@knowledge
+  attr_accessor :knowledge
 
   def initialize
     @first_name = first_name
