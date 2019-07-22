@@ -12,7 +12,8 @@ class Teacher < User
   end
 
   def teach
-    puts KNOWLEDGE.random
+    self.learn
+    puts learn
   end
 
 end
