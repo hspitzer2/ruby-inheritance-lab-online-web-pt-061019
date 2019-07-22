@@ -10,7 +10,8 @@ class Teacher < User
     @last_name
 
   end
-  # def teach
-  # end
+
+  def teach
+  end
 
 end
