@@ -13,7 +13,7 @@ class Teacher < User
 
   def teach
     some_knowledge = KNOWLEDGE.sample
-    puts some_knowledge
+     some_knowledge
   end
 
 end
